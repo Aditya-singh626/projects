@@ -24,12 +24,34 @@ header {
 .menu {
   position: relative;
 }
+.menu:hover .menu-item {
+  display: block;
+}
+/*or*/
+/* .menu-btn + .menu-item {
+  display: block;
+} */
+.menu-btn:hover {
+  background-color: lightblue;
+  border-radius: 4px;
+  cursor: pointer;
+}
 .menu-item {
   position: absolute;
   background-color: aqua;
-  left:-10px;
-  width: 7rem;;
-
+  left: -10px;
+  width: 7rem;
+  display: none;
+  margin-top: 0%;
+  border-radius: 1rem;
+}
+.first:hover{
+  background-color: lightblue;
+  border-radius: 1rem;
+}
+.second:hover{
+  background-color: lightblue;
+  border-radius: 1rem;
 }
 .tittle-img {
   height: 90%;
@@ -45,10 +67,10 @@ footer {
   height: 4rem;
   background-color: #aeadad;
 }
-ul{
+ul {
   padding: 0;
 }
-li{
+li {
   list-style: none;
   padding: 0.25rem;
 }
