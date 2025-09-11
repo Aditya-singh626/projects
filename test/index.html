@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <form>
-  <label for="name">Name:</label>
+<form>
+  <label for="name">Name<span style="color: red;">*</span>:</label>
   <input type="text" id="name" name="name" required /><br /><br />
 
   <label for="age">Age:</label>
@@ -18,8 +10,8 @@
     <option value="">Select</option>
     <option value="male">Male</option>
     <option value="female">Female</option>
-    <option value="other">Other</option>
-  </select><br /><br />
+    <option value="other">Other</option></select
+  ><br /><br />
 
   <label for="class">Class:</label>
   <input type="text" id="class" name="class" required /><br /><br />
@@ -36,8 +28,8 @@
     <option value="Thursday">Thursday</option>
     <option value="Friday">Friday</option>
     <option value="Saturday">Saturday</option>
-    <option value="Sunday">Sunday</option>
-  </select><br /><br />
+    <option value="Sunday">Sunday</option></select
+  ><br /><br />
 
   <label for="month">Month:</label>
   <select id="month" name="month" required>
@@ -53,10 +45,8 @@
     <option value="September">September</option>
     <option value="October">October</option>
     <option value="November">November</option>
-    <option value="December">December</option>
-  </select><br /><br />
+    <option value="December">December</option></select
+  ><br /><br />
 
   <button type="submit">Submit</button>
 </form>
-</body>
-</html>

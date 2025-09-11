@@ -12,10 +12,11 @@ video_btn.addEventListener("click", () => {
   video_input.click();
 });
 video_input.addEventListener("change", (obj) => {
-  console.log("obj",obj);
+  console.log("obj", obj);
   const file = obj.target.files[0];
   const video = document.createElement("video");
-  video.src = URL.createObjectURL(file);});  
+  video.src = URL.createObjectURL(file);
+});
 SpeedUp.addEventListener("click", () => {
   alert("Speed Up");
 });
@@ -29,5 +30,3 @@ Volumeup.addEventListener("click", () => {
 volumedown.addEventListener("click", () => {
   alert("Volume Down");
 });
-
-
