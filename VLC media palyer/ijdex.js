@@ -11,6 +11,7 @@ const video_input = document.querySelector("#video_input");
 video_btn.addEventListener("click", () => {
   video_input.click();
 });
+
 video_input.addEventListener("change", (obj) => {
   console.log("obj", obj);
   const file = obj.target.files[0];
