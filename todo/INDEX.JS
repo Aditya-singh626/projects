@@ -43,7 +43,8 @@ button.addEventListener("click", inputHandler);
 const secondBtn = document.querySelector(".second");
 
 secondBtn.addEventListener("click", function () {
-  
+    const name = prompt("What is your name");
+    console.log("name", name);
 })
 
 
