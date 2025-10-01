@@ -5,7 +5,7 @@ body {
 
 h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.1rem;
 }
 
 h3 {
@@ -13,7 +13,7 @@ h3 {
 }
 
 .todo {
-    width: 400px;
+    width: 410px;
     margin: auto;
     border: 2px solid gray;
     height: 500px;
@@ -21,13 +21,13 @@ h3 {
 
 .input-area {
     margin: auto;
-    width: 300px;
+    width: 310px;
     height: 60px;
     margin-top: 30px;
 }
 
 .list {
-    width: 300px;
+    width: 310px;
     border: 2px solid gray;
     height: 300px;
     margin: auto;
