@@ -40,11 +40,10 @@ function createTask(newTask) {
 
 button.addEventListener("click", inputHandler);
 
-// const secondBtn = document.querySelector(".second");
+const secondBtn = document.querySelector(".second");
 
-// secondBtn.addEventListener("click", function () {
-//     const name = prompt("What is your name");
-//     console.log("name", name);
-// })
+secondBtn.addEventListener("click", function () {
+  
+})
 
 
